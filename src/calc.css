@@ -1,0 +1,80 @@
+/* Styling for the 'myCalculator' container */
+.myCalculator {
+  width: 315px; /* Set the width of the container */
+  margin: auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding to the container */
+  background-color: black; /* Set the background color to black */
+  font-family: "Orbitron", sans-serif; /* Specify the font family */
+  border-radius: 10px; /* Apply rounded corners to the container */
+}
+
+/* Styling for buttons container (assuming this is applied to the parent of all buttons) */
+.buttons {
+  display: inline-block; /* Display buttons in a horizontal line */
+  margin: 23px 15px; /* Add margin around the buttons */
+}
+
+/* Styling for individual buttons with the class 'btn' */
+.btn {
+  background: #0077b6; /* Change the background color to a shade of blue */
+  color: white; /* Set the text color to white */
+  padding: 5%; /* Add padding inside the button */
+  border: 0px; /* Remove the button border */
+  border-radius: 50%; /* Make the button circular */
+  width: 60px; /* Set the button width */
+  height: 60px; /* Set the button height */
+  margin: 5px; /* Add margin around the buttons */
+  font-size: 25px; /* Set the font size */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  outline: none; /* Remove the button outline on focus */
+}
+
+/* Styling for focused state of buttons */
+.btn:focus {
+  background: white; /* Change background color on focus */
+  color: #0077b6; /* Change text color to blue on focus */
+}
+
+/* Styling for buttons with the class 'btn-calc' */
+.btn-calc {
+  background: #ff6b6b; /* Change the background color to a shade of red */
+  color: white; /* Set the text color to white */
+}
+
+/* Styling for buttons with the class 'btn-action' */
+.btn-action {
+  background: #4a90e2; /* Change the background color to a different shade of blue */
+  color: white; /* Set the text color to white */
+}
+
+/* Styling for the '0' button with the class 'btn-0' */
+.btn-0 {
+  background: #323232; /* Set a specific background color */
+  color: white; /* Set a specific text color */
+  border: 0px; /* Remove the button border */
+  margin: 5px; /* Add margin around the button */
+  padding: 5%; /* Add padding inside the button */
+  width: 130px; /* Set the button width */
+  border-radius: 30px; /* Apply rounded corners to the button */
+  height: 60px; /* Set the button height */
+  font-size: 25px; /* Set the font size */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  outline: none; /* Remove the button outline on focus */
+}
+
+/* Styling for the result display container */
+.result {
+  width: 100%; /* Set the width of the result container */
+  height: 62px; /* Set the height of the result container */
+  margin-top: 30px; /* Add margin at the top of the container */
+  background: #18e0c6e0; /* Set the background color */
+}
+
+/* Styling for text within the result container */
+.result p {
+  text-align: right; /* Align the text to the right */
+  font-size: 26px; /* Set the font size */
+  margin-bottom: 4px; /* Add margin at the bottom of the text */
+  padding-top: 14px; /* Add padding at the top of the text */
+  padding-right: 10px; /* Add padding at the right of the text */
+}
